@@ -21,7 +21,8 @@ namespace haromszog
 
         public bool szerkesztheto()
         {
-            return a + b > c && a + c > b && b + c > a;
+            if (a + b > c && a + c > b && b + c > a) return true;
+            throw new HaromszogException();
         }
 
         public double kerulet()
