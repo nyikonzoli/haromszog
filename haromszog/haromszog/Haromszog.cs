@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace haromszog
 {
-    class Haromszog
+    public class Haromszog
     {
         public double a { get; set; }
         public double b { get; set; }
