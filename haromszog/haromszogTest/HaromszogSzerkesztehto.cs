@@ -5,7 +5,7 @@ using System;
 namespace haromszogTest
 {
     [TestClass]
-    public class HaromszogTeszteles
+    public class HaromszogSzerkesztehto
     {
         [TestMethod]
         [DataRow(10, 10, 10)]
